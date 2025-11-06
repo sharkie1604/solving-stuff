@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foodie’s Delight – Restaurant Landing Page</title>
+        <style>
+            .image{
+                display: flex;
+                justify-content: center;
+            }
+            h1{
+                color:chocolate;
+                font-family: 'Courier New', Courier, monospace;
+                text-decoration:underline;
+            }
+            p{
+                font-family: 'Courier New', Courier, monospace;
+            }
+            a{
+                font-family: 'Courier New', Courier, monospace;
+                text-decoration: none;
+            }
+            a:hover{
+                color:brown;
+                cursor:pointer;
+            }
+            #i1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 10px;
+                border: 5px solid maroon;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #i2{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border: 5px solid maroon;
+                border-radius: 10px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            form{
+                background-color:lightyellow;
+                max-width:min-content;
+                border: 5px solid maroon;
+                border-radius: 10px;
+                box-sizing: border-box;
+                margin: 0 auto;
+                padding: 10px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            body{
+                background-color: blanchedalmond;
+                text-align:center;
+                padding:5px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Foodie's Delight</h1>
+        <div style="line-height: 5px;">
+        <p>Welcome to Foodie's Delight, where passion for flavor meets the freshest ingredients. </p> 
+          <p> We've crafted a menu that celebrates both comforting classics and exciting culinary innovations, </p> 
+           <p> ensuring every bite is a memorable experience. </p> 
+           <p>Whether you're here for a casual lunch, a special dinner, </p> 
+           <p>or just to indulge your taste buds, our warm and inviting atmosphere is the perfect backdrop. </p> 
+           <p>Come on in, discover your new favorite dish, and let us delight you.</p>
+        </div>
+        <div class="image">
+        <figure>
+            <div>
+        <img id="i1" src="https://imgs.search.brave.com/uY9J7EU2Dkg6B9sw2-oBRlLbZzCROZn98TgL853AJck/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aGVm/dW5ueWJlYXZlcmNv/bWQwMzBiLnphcHdw/LmNvbS9xOmkvcjow/L3dwOjEvdzo0ODAv/dTpodHRwczovL3Ro/ZWZ1bm55YmVhdmVy/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wMS9mdW5u/eS10aGVyZS13aWxs/LWJlLWZvb2QuanBn" height="250px" width="250px" alt="food">
+        </div>
+        <figcaption>YUMMMMMMMMM</figcaption>
+        </figure>
+        <figure>
+            <div>
+        <img id="i2" src="https://imgs.search.brave.com/thr31WLm9feuk62_KZphw3dhhZBpAt8j2-XiSlnWx_I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aGVm/dW5ueWJlYXZlcmNv/bWQwMzBiLnphcHdw/LmNvbS9xOmkvcjow/L3dwOjEvdzo0ODAv/dTpodHRwczovL3Ro/ZWZ1bm55YmVhdmVy/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wMS9mdW5u/eS1oZWFyZC10aGUt/d29yZC5qcGc" height="250px" width="250px" alt="food">
+        </div>
+        <figcaption>Food is goooooooooood stuffff!</figcaption>
+        </figure>
+        </div>
+        <a href="https://www.boredpanda.com/blog/wp-content/uploads/2015/09/menu-fail-4__605.jpg?utm_campaign=rebelboost_true">View Full Menu</a>
+        <br><br>
+        <form action="/submit" method="POST">
+            <h1>Send us a message:</h1>
+            <label for="user">Name:</label>
+            <input type="text" id="user" name="user" required>
+            <br><br>
+            <label for="mail">Email:</label>
+            <input typr="email" id="mail" name="mail" placeholder="your@example.com" required>
+            <br><br>
+                <label for="comment">Message:</label><br>
+                <textarea
+                name="comment"
+                id="comment"
+                rows="6"
+                cols="40"
+                placeholder="Write your message here...">
+            </textarea>
+        </form>
+        
+    </body>
+</html>

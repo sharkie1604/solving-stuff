@@ -1,0 +1,21 @@
+*{
+    padding: 20px;
+    text-align: center;
+}
+.image{
+    display: flex;
+}
+body{
+    background-color: bisque;
+}
+#i1, #i2{
+    border: 3px solid rosybrown;
+    margin:20px;
+}
+h1, p{
+    text-align: center;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color:brown;
+}

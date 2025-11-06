@@ -1,0 +1,17 @@
+form{
+    width:400px;
+    margin:auto;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color:beige;
+}
+h1{
+    color: darkgreen;
+    text-align:center;
+}
+button{
+    text-decoration: none;
+    background-color:bisque;
+}
